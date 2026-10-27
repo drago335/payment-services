@@ -1,5 +1,8 @@
 package org.example;
 
+import org.springframework.stereotype.Service;
+
+@Service("creditCardPayment")
 public class Credit_card implements Payment_methods{
     @Override
     public void proccessMethods(String userId, double amount){

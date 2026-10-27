@@ -1,5 +1,8 @@
 package org.example;
 
+import org.springframework.stereotype.Service;
+
+@Service("bankTransferPayment")
 public class Bank_transfer implements Payment_methods{
     @Override
     public void proccessMethods(String userId, double amount){
